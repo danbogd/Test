@@ -82,4 +82,16 @@ git remote -v // проверка правильно "соединили" лок
 git push -u origin master
 
 
- 
+
+
+$ mkdir myproject
+$ cd myproject
+$ npm init -y
+$ npm install truffle
+$ npx truffle init
+
+To install the OpenZeppelin library, run the following in your Solidity project root directory:
+
+$ npm install @openzeppelin/contracts
+
+
